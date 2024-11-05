@@ -38,37 +38,38 @@ The dataset of X-ray images is loaded, and images are labeled as either COVID or
 
 2. Exploratory Data Analysis (EDA)
 EDA involves visualizing the data distribution for different classes. Count plots show the number of COVID-positive vs. negative cases, and sample images help understand image characteristics, which is essential for effective model training.
-
-3. Image Preprocessing and Augmentation
+![Sample X-Ray](https://github.com/1216-dev/COVID-19_PREDICTION/blob/main/download%20(5).png)
+![Sample X-Ray](https://github.com/1216-dev/COVID-19_PREDICTION/blob/main/download%20(4).png)
+4. Image Preprocessing and Augmentation
 Image preprocessing includes resizing and converting images to grayscale, with additional augmentations like rotation, brightness adjustment, and flipping. These steps improve model generalization and simulate varied conditions within the dataset.
 
-4. Ben Graham's Method
+5. Ben Graham's Method
 Using Ben Graham's Method, images are converted to grayscale and smoothed with a Gaussian blur. This step reduces noise and highlights important structures in X-ray images, enabling the model to focus on relevant patterns associated with COVID-19.
 
-5. Model Building
+6. Model Building
 A Convolutional Neural Network (CNN) model is designed with layers for feature extraction and classification. The CNN leverages image patterns to classify X-rays, focusing on detecting features related to COVID-19.
 
-6. Model Training
+7. Model Training
 The model is trained on the dataset with validation monitoring to prevent overfitting. Techniques like early stopping and dropout regularization are used to enhance model performance, providing a balance between training and validation accuracy.
 
-7. Model Evaluation
+8. Model Evaluation
 After training, the model’s performance is evaluated using metrics such as accuracy, recall, and F1 score on the test set. Confusion matrices give insights into classification accuracy across different classes.
 
-8. Grad-CAM Visualization
+9. Grad-CAM Visualization
 Grad-CAM is used to generate heatmaps for COVID-positive and negative cases, highlighting areas in the X-rays where the model focuses to make its predictions. This step provides interpretability by showing which regions influenced the model’s decision.
 ![Sample X-Ray](https://github.com/1216-dev/COVID-19_PREDICTION/blob/main/download%20(5).png)
 
-
+![Sample X-Ray](https://github.com/1216-dev/COVID-19_PREDICTION/blob/main/download%20(8).png)
 Results
 The model achieves high accuracy in differentiating between COVID-positive and negative cases, offering a potential tool for assisting radiologists in diagnosis. Below are the evaluation metrics:
-![Sample X-Ray](https://github.com/1216-dev/COVID-19_PREDICTION/blob/main/download%20(4).png)
+
 Accuracy: 98%
 
 Contributing
 Contributions are welcome! Please fork this repository and submit a pull request with your changes
 
 ![Sample X-Ray](https://github.com/1216-dev/COVID-19_PREDICTION/blob/main/download%20(6).png)
-![Sample X-Ray](https://github.com/1216-dev/COVID-19_PREDICTION/blob/main/download%20(8).png)
+
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
