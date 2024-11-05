@@ -56,18 +56,19 @@ After training, the model’s performance is evaluated using metrics such as acc
 
 8. Grad-CAM Visualization
 Grad-CAM is used to generate heatmaps for COVID-positive and negative cases, highlighting areas in the X-rays where the model focuses to make its predictions. This step provides interpretability by showing which regions influenced the model’s decision.
-
+![Sample X-Ray](https://github.com/1216-dev/COVID-19_PREDICTION/blob/main/download%20(5).png)
 
 
 Results
 The model achieves high accuracy in differentiating between COVID-positive and negative cases, offering a potential tool for assisting radiologists in diagnosis. Below are the evaluation metrics:
-
+![Sample X-Ray](https://github.com/1216-dev/COVID-19_PREDICTION/blob/main/download%20(4).png)
 Accuracy: 98%
 
 Contributing
 Contributions are welcome! Please fork this repository and submit a pull request with your changes
 
-
+![Sample X-Ray](https://github.com/1216-dev/COVID-19_PREDICTION/blob/main/download%20(6).png)
+![Sample X-Ray](https://github.com/1216-dev/COVID-19_PREDICTION/blob/main/download%20(8).png)
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/your-username/your-repo-name.git
