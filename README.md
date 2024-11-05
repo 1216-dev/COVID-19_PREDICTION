@@ -2,6 +2,7 @@
 Detection of COVID-19 Positive Cases Using Deep Learning leverages AI to classify chest X-ray images into categories: COVID-positive, lung opacity, normal, and viral pneumonia. This project aims to support healthcare providers with quick, accurate preliminary diagnoses, easing the strain on medical resources during high-demand periods. 
 Detection of COVID-19 Positive Cases Using Deep Learning
 This project applies deep learning techniques to detect COVID-19 positive cases from chest X-ray images. By categorizing images as COVID-positive, lung opacity, normal, or viral pneumonia, this model aims to assist healthcare providers in identifying cases quickly and accurately.
+![Alt Text](path/to/image.png)
 
 # Detection of COVID-19 Positive Cases Using Deep Learning
 
@@ -26,6 +27,7 @@ This project applies deep learning techniques to detect COVID-19 positive cases 
 - [License](#license)
 
 ---
+![Alt Text](path/to/image.png)
 
 ## Project Overview
 
@@ -33,6 +35,14 @@ This project leverages a deep learning-based classifier to automate the analysis
 
 ## Dataset
 
+## Installation
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+pip install -r requirements.txt
+
+
 The dataset is sourced from [COVID-19 Radiography Database on Kaggle](https://www.kaggle.com/tawsifurrahman/covid19-radiography-database), consisting of X-ray images classified into COVID, Normal, Lung Opacity, and Viral Pneumonia categories. 
 
-Directory Structure:
+
